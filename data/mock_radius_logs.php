@@ -1,0 +1,30 @@
+<?php
+$now = time();
+return [
+    date('Fri Jun d H:i:s Y', $now - 86400) . ' : Info  : rlm_sql (sql): Opening additional connection (0), 1 of 32 pending slots used',
+    date('Fri Jun d H:i:s Y', $now - 86300) . ' : Info  : Signalled to reload configuration',
+    date('Fri Jun d H:i:s Y', $now - 86200) . ' : Info  : ... scanning /etc/freeradius/mods-enabled/',
+    date('Fri Jun d H:i:s Y', $now - 86100) . ' : Info  : Ready to process requests',
+    date('Fri Jun d H:i:s Y', $now - 7200) . ' : Auth  : Login OK: [budi.santoso] (from client 192.168.100.1 port 1812)',
+    date('Fri Jun d H:i:s Y', $now - 7100) . ' : Auth  : Login OK: [joko.susilo] (from client 192.168.100.1 port 1812)',
+    date('Fri Jun d H:i:s Y', $now - 6500) . ' : Auth  : Login incorrect (mismatch): [unknown.user] (from client 192.168.100.1 port 1812)',
+    date('Fri Jun d H:i:s Y', $now - 6300) . ' : Error : rlm_sql: Login to database failed: Connection refused',
+    date('Fri Jun d H:i:s Y', $now - 5000) . ' : Auth  : Login OK: [ani.lestari] (from client 192.168.100.1 port 1812)',
+    date('Fri Jun d H:i:s Y', $now - 4800) . ' : Auth  : Login OK: [rudi.permadi] (from client 192.168.100.1 port 1812)',
+    date('Fri Jun d H:i:s Y', $now - 3600) . ' : Auth  : Login incorrect (rlm_chap: Response check failed): [hacker.try] (from client 192.168.100.1 port 1812)',
+    date('Fri Jun d H:i:s Y', $now - 3500) . ' : Auth  : Invalid user (Invalid rad_check entry - Missing or invalid password): [ghost.user]',
+    date('Fri Jun d H:i:s Y', $now - 3200) . ' : Info  : rlm_sql (sql): 0 of 1 connections in use',
+    date('Fri Jun d H:i:s Y', $now - 2900) . ' : Auth  : Login OK: [mega.wati] (from client 192.168.100.1 port 1812)',
+    date('Fri Jun d H:i:s Y', $now - 2600) . ' : Auth  : Login OK: [siti.aminah] (from client 192.168.100.1 port 1812)',
+    date('Fri Jun d H:i:s Y', $now - 1800) . ' : Auth  : Login OK: [budi.santoso] (from client 192.168.100.1 port 1812)',
+    date('Fri Jun d H:i:s Y', $now - 1500) . ' : Auth  : Login incorrect (rlm_unix: [root]: invalid user): [admin.fail] (from client 192.168.100.1 port 1812)',
+    date('Fri Jun d H:i:s Y', $now - 1200) . ' : Acct  : [budi.santoso] Acct-Status-Type = Start, Acct-Session-Id = "80000001", Framed-IP-Address = 10.10.20.15',
+    date('Fri Jun d H:i:s Y', $now - 900) . ' : Acct  : [joko.susilo] Acct-Status-Type = Start, Acct-Session-Id = "80000002", Framed-IP-Address = 192.168.88.254',
+    date('Fri Jun d H:i:s Y', $now - 500) . ' : Acct  : [mega.wati] Acct-Status-Type = Stop, Acct-Session-Id = "80000003", Acct-Session-Time = 450',
+    date('Fri Jun d H:i:s Y', $now - 300) . ' : Info  : Received signal SIGTERM ... stopping',
+    date('Fri Jun d H:i:s Y', $now - 280) . ' : Error : rlm_ldap: Could not authenticate user (attribute not present)',
+    date('Fri Jun d H:i:s Y', $now - 240) . ' : Auth  : Login OK: [ani.lestari] (from client 192.168.100.1 port 1812)',
+    date('Fri Jun d H:i:s Y', $now - 120) . ' : Auth  : Login OK: [rudi.permadi] (from client 192.168.100.1 port 1812)',
+    date('Fri Jun d H:i:s Y', $now - 30) . ' : Info  : Ready to process requests',
+];
+?>

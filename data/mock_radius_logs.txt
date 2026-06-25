@@ -1,0 +1,25 @@
+Fri Jun 14 00:00:00 2025 : Info  : rlm_sql (sql): Opening additional connection (0), 1 of 32 pending slots used
+Fri Jun 14 00:02:40 2025 : Info  : Signalled to reload configuration
+Fri Jun 14 00:04:20 2025 : Info  : ... scanning /etc/freeradius/mods-enabled/
+Fri Jun 14 00:06:00 2025 : Info  : Ready to process requests
+Fri Jun 14 02:00:00 2025 : Auth  : Login OK: [budi.santoso] (from client 192.168.100.1 port 1812)
+Fri Jun 14 02:10:00 2025 : Auth  : Login OK: [joko.susilo] (from client 192.168.100.1 port 1812)
+Fri Jun 14 02:30:00 2025 : Auth  : Login incorrect (mismatch): [unknown.user] (from client 192.168.100.1 port 1812)
+Fri Jun 14 02:45:00 2025 : Error : rlm_sql: Login to database failed: Connection refused
+Fri Jun 14 03:00:00 2025 : Auth  : Login OK: [ani.lestari] (from client 192.168.100.1 port 1812)
+Fri Jun 14 03:20:00 2025 : Auth  : Login OK: [rudi.permadi] (from client 192.168.100.1 port 1812)
+Fri Jun 14 04:00:00 2025 : Auth  : Login incorrect (rlm_chap: Response check failed): [hacker.try] (from client 192.168.100.1 port 1812)
+Fri Jun 14 04:10:00 2025 : Auth  : Invalid user (Invalid rad_check entry - Missing or invalid password): [ghost.user]
+Fri Jun 14 04:40:00 2025 : Info  : rlm_sql (sql): 0 of 1 connections in use
+Fri Jun 14 05:00:00 2025 : Auth  : Login OK: [mega.wati] (from client 192.168.100.1 port 1812)
+Fri Jun 14 05:20:00 2025 : Auth  : Login OK: [siti.aminah] (from client 192.168.100.1 port 1812)
+Fri Jun 14 06:00:00 2025 : Auth  : Login OK: [budi.santoso] (from client 192.168.100.1 port 1812)
+Fri Jun 14 06:30:00 2025 : Auth  : Login incorrect (rlm_unix: [root]: invalid user): [admin.fail] (from client 192.168.100.1 port 1812)
+Fri Jun 14 07:00:00 2025 : Acct  : [budi.santoso] Acct-Status-Type = Start, Acct-Session-Id = "80000001", Framed-IP-Address = 10.10.20.15
+Fri Jun 14 07:30:00 2025 : Acct  : [joko.susilo] Acct-Status-Type = Start, Acct-Session-Id = "80000002", Framed-IP-Address = 192.168.88.254
+Fri Jun 14 08:00:00 2025 : Acct  : [mega.wati] Acct-Status-Type = Stop, Acct-Session-Id = "80000003", Acct-Session-Time = 450
+Fri Jun 14 08:30:00 2025 : Info  : Received signal SIGTERM ... stopping
+Fri Jun 14 08:40:00 2025 : Error : rlm_ldap: Could not authenticate user (attribute not present)
+Fri Jun 14 09:00:00 2025 : Auth  : Login OK: [ani.lestari] (from client 192.168.100.1 port 1812)
+Fri Jun 14 09:20:00 2025 : Auth  : Login OK: [rudi.permadi] (from client 192.168.100.1 port 1812)
+Fri Jun 14 09:30:00 2025 : Info  : Ready to process requests
